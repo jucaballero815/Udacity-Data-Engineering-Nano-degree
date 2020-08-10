@@ -29,7 +29,7 @@ log_data/2018/11/2018-11-13-events.json
 Displayed below are some of the contents of 2018/11/2018-11-13-events.json after it has been loaded into a 
 dataframe:
 
-![](https://user-images.githubusercontent.com/34932040/89822772-efab5280-db15-11ea-8ddc-cdb97a48e64d.png)
+![dataframe-image](https://user-images.githubusercontent.com/34932040/89824298-88db6880-db18-11ea-913b-209b03be94ea.png)
 
 # Database Schema Design
 A star schema is used to optimize queries on song-play analysis.  It consists of the following tables:
@@ -59,11 +59,11 @@ The project workspace contains the following six source code files aside from th
 
 Note that all the source code files are meant to be loaded and run in a __JupyterLab__ environment.    The python files in particular can be run in a terminal launched in a __JupyterLab__ environment.  In the project workspace, select a new terminal launcher. 
 
-![new launcher](images/launcher.png)
+![launcher](https://user-images.githubusercontent.com/34932040/89824397-a8729100-db18-11ea-913d-2c498c828feb.png)
 
 Run a python file by typing `python file_name.py` in the terminal.  In the image below, the `create_tables.py` file ran successfully in the terminal.   
 
-![run python file in terminal](images/terminal.png)
+![terminal](https://user-images.githubusercontent.com/34932040/89824418-b0cacc00-db18-11ea-80aa-8382c971c246.png)
 
 # ETL Processes
 The `etl.ipynb` notebook contains ETL processes for each of the five tables in our star schema.  They can be run one at a time.  The `test.ipynb` notebook can be run at the end of each ETL process or at the end of the entire `etl.ipynb` notebook to check that the ETL processes ran successfully.  The `create_tables.py` script can be run to reset the tables before running `test.ipynb`.
