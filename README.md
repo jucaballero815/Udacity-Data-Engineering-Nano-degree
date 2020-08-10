@@ -29,7 +29,7 @@ log_data/2018/11/2018-11-13-events.json
 Displayed below are some of the contents of 2018/11/2018-11-13-events.json after it has been loaded into a 
 dataframe:
 
-![sdfds](images/dataframe-image.png)
+![image](https://github.com/jucaballero815/Udacity-Data-Engineering-Nano-degree/issues/1#issue-676359726)
 
 # Database Schema Design
 A star schema is used to optimize queries on song-play analysis.  It consists of the following tables:
